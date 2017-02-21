@@ -1,0 +1,19 @@
+no me deja empezar el bot me da error.
+[11:50:00] (ERROR) PokemonGo.RocketAPI.Exceptions.InvalidResponseException: Se produjo una excepción de tipo 'PokemonGo.RocketAPI.Exceptions.InvalidResponseException'.
+   en PokemonGo.RocketAPI.Extensions.HttpClientExtensions.<PostProtoPayload>d__1`2.MoveNext() en F:\catchem\PoGoAPI\PoGo.RocketAPI\Extensions\HttpClientExtensions.cs:línea 79
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en PokemonGo.RocketAPI.Rpc.BaseRpc.<PostProtoPayload>d__8`2.MoveNext() en F:\catchem\PoGoAPI\PoGo.RocketAPI\Rpc\BaseRpc.cs:línea 0
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en PokemonGo.RocketAPI.Rpc.Player.<GetPlayer>d__4.MoveNext() en F:\catchem\PoGoAPI\PoGo.RocketAPI\Rpc\Player.cs:línea 54
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en PoGo.PokeMobBot.Logic.State.LoginState.<DownloadProfile>d__2.MoveNext() en F:\catchem\PoGo.PokeMobBot.Logic\State\LoginState.cs:línea 285
+[11:50:00] (ATTENTION) Make sure Lat & Lng are right. Exit Program if not! Lat: 41,6361056089218 Lng: -0,895684995382762 Alt: 225,9838605
+[11:50:01] (ERROR) Niantic Servers unstable, throttling API Calls.
+
+como lo puedo solucionar???
